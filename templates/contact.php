@@ -1,5 +1,5 @@
-<!doctype php>
-<php lang="en">
+<!doctype html>
+<html lang="en">
 <head>
     <title>EVOTE DVD - contact details</title>
     <meta charset="utf-8">
@@ -22,19 +22,19 @@
         </li>
 
         <li>
-            <a href="about.php">About Us</a>
+            <a href="index.php?action=about">About Us</a>
         </li>
 
         <li>
-            <a href="list.php">DVD ratings</a>
+            <a href="index.php?action=list">DVD ratings</a>
         </li>
 
         <li>
-            <a href="contact.php" class="current_page">Contact Us</a>
+            <a href="index.php?action=contact" class="current_page">Contact Us</a>
         </li>
 
         <li>
-            <a href="sitemap.php">Site Map</a>
+            <a href="index.php?action=sitemap">Site Map</a>
         </li>
     </ul>
 </nav>
@@ -74,4 +74,4 @@
 </footer>
 
 </body>
-</php>
+</html>

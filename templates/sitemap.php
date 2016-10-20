@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>EVOTE DVD - about</title>
+    <title>EVOTE DVD - sitemap</title>
     <meta charset="utf-8">
     <style>
         @import "/css/basic.css";
@@ -15,6 +15,7 @@
     <img src="/images/smithit_logo.gif" alt="logo">
 </header>
 
+
 <nav>
     <ul>
         <li>
@@ -22,39 +23,34 @@
         </li>
 
         <li>
-            <a href="about.php" class="current_page">About Us</a>
+            <a href="index.php?action=about">About Us</a>
         </li>
 
         <li>
-            <a href="list.php">DVD ratings</a>
+            <a href="index.php?action=list">DVD ratings</a>
         </li>
 
         <li>
-            <a href="contact.php">Contact Us</a>
+            <a href="index.php?action=contact">Contact Us</a>
         </li>
 
         <li>
-            <a href="sitemap.php">Site Map</a>
+            <a href="index.php?action=sitemap" class="current_page">Site Map</a>
         </li>
     </ul>
 </nav>
 
 <h1>
-    About us
+    Site Map
 </h1>
 
-<p>
-    We are SmithIT.com.
-</p>
-<p>
-    We are based in Dublin.
-</p>
-<p>
-    We were established in 2007.
-</p>
-<p>
-    We sell computers and computer services - and host this great DVD voting site!.
-</p>
+<ul>
+    <li><a href="index.php">Home</a>
+    <li><a href="about.php">About us</a>
+    <li><a href="list.php">DVD ratings</a>
+    <li><a href="contact.php">Contact us</a>
+    <li><a href="sitemap.php">Site Map</a>
+</ul>
 
 
 <footer>
