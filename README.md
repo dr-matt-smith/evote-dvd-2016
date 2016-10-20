@@ -3,30 +3,39 @@
 
 About
 -------------------------------------------------------
-In this version we have move all content files into directory `/templates`
+In this version we have added a `.htaccess` file into directory `public`
 
-a **front controller** has been added, so we have a single public file `public/index.php`
 
-This front controller looks for a GET parameter `action`, and if found uses that value to decide which template to display:
+file: `public/.htaccess`
 
-    switch ($action){
-        case 'about':
-            require_once __DIR__ . '/../templates/about.php';
-            break;
-        case 'contact':
-            require_once __DIR__ . '/../templates/contact.php';
-            break;
-        case 'list':
-            require_once __DIR__ . '/../templates/list.php';
-            break;
-        case 'sitemap':
-            require_once __DIR__ . '/../templates/sitemap.php';
-            break;
-        case 'index':
-        default:
-            // default is home page ('index' action)
-            require_once __DIR__ . '/../templates/index.php';
-    }
+    <IfModule mod_rewrite.c>
+        RewriteEngine On
+        RewriteCond %{REQUEST_FILENAME} !-f
+        RewriteCond %{REQUEST_FILENAME} !-d
+        RewriteRule (.+) index.php?action=$1 [QSA,L]
+    </IfModule>
+
+The rules in this file tell the Apache web server to assume that `index.php?action=` is at the beginning of every web request
+
+This (which saves us having to add this to every link). So we can write `/` instead of `/index.php`, and `/list` instead of `/index.php?action=list`.
+
+So our navigation list of links now looks like this
+
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+    
+            <li>
+                <a href="/about">About Us</a>
+            </li>
+    
+            <li>
+                <a href="/list">DVD ratings</a>
+            </li>
+            
+            etc.
     
 todo
 -------

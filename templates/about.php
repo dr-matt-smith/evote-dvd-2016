@@ -18,23 +18,23 @@
 <nav>
     <ul>
         <li>
-            <a href="index.php">Home</a>
+            <a href="/">Home</a>
         </li>
 
         <li>
-            <a href="index.php?action=about" class="current_page">About Us</a>
+            <a href="/about" class="current_page">About Us</a>
         </li>
 
         <li>
-            <a href="index.php?action=list">DVD ratings</a>
+            <a href="/list">DVD ratings</a>
         </li>
 
         <li>
-            <a href="index.php?action=contact">Contact Us</a>
+            <a href="/contact">Contact Us</a>
         </li>
 
         <li>
-            <a href="index.php?action=sitemap">Site Map</a>
+            <a href="/sitemap">Site Map</a>
         </li>
     </ul>
 </nav>
