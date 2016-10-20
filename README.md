@@ -3,30 +3,35 @@
 
 About
 -------------------------------------------------------
-In this version we have simply changed each HTML files extension from `.html` to `.php`
+In this version we have move all content files into directory `/templates`
 
-(and also had to change all the `href` values for links:
+a **front controller** has been added, so we have a single public file `public/index.php`
 
-    <nav>
-        <ul>
-            <li>
-                <a href="index.php">Home</a>
-            </li>
+This front controller looks for a GET parameter `action`, and if found uses that value to decide which template to display:
+
+    switch ($action){
+        case 'about':
+            require_once __DIR__ . '/../templates/about.php';
+            break;
+        case 'contact':
+            require_once __DIR__ . '/../templates/contact.php';
+            break;
+        case 'list':
+            require_once __DIR__ . '/../templates/list.php';
+            break;
+        case 'sitemap':
+            require_once __DIR__ . '/../templates/sitemap.php';
+            break;
+        case 'index':
+        default:
+            // default is home page ('index' action)
+            require_once __DIR__ . '/../templates/index.php';
+    }
     
-            <li>
-                <a href="about.php">About Us</a>
-            </li>
-    
-            <li>
-                <a href="list.php">DVD ratings</a>
-            </li>
-            
-            etc.
-
 todo
 -------
 
-* still pretty much everything ...
+* need to move away from having PHP in our templates - since we want to be able to safetly outsource the templates to a suitable marketing / graphic design sub-team, and not have any potential issues of them needing to, or accidently, working with live PHP scripts
 
 
 Author
