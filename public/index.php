@@ -1,7 +1,7 @@
-<!doctype html>
-<html lang="en">
+<!doctype php>
+<php lang="en">
 <head>
-    <title>EVOTE DVD - sitemap</title>
+    <title>EVOTE DVD - home</title>
     <meta charset="utf-8">
     <style>
         @import "/css/basic.css";
@@ -15,42 +15,37 @@
     <img src="/images/smithit_logo.gif" alt="logo">
 </header>
 
-
 <nav>
     <ul>
         <li>
-            <a href="index.html">Home</a>
+            <a href="index.php" class="current_page">Home</a>
         </li>
 
         <li>
-            <a href="about.html">About Us</a>
+            <a href="about.php">About Us</a>
         </li>
 
         <li>
-            <a href="list.html">DVD ratings</a>
+            <a href="list.php">DVD ratings</a>
         </li>
 
         <li>
-            <a href="contact.html">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
         </li>
 
         <li>
-            <a href="sitemap.html" class="current_page">Site Map</a>
+            <a href="sitemap.php">Site Map</a>
         </li>
     </ul>
 </nav>
 
 <h1>
-    Site Map
+Welcome to SmithIT Home Page
 </h1>
 
-<ul>
-    <li><a href="index.html">Home</a>
-    <li><a href="about.html">About us</a>
-    <li><a href="list.html">DVD ratings</a>
-    <li><a href="contact.html">Contact us</a>
-    <li><a href="sitemap.html">Site Map</a>
-</ul>
+<p>
+This site offers you the chance to VOTE on your favourite DVD films ...
+</p>
 
 
 <footer>
@@ -58,4 +53,4 @@
 </footer>
 
 </body>
-</html>
+</php>

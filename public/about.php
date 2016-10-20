@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>EVOTE DVD - home</title>
+    <title>EVOTE DVD - about</title>
     <meta charset="utf-8">
     <style>
         @import "/css/basic.css";
@@ -18,33 +18,42 @@
 <nav>
     <ul>
         <li>
-            <a href="index.html" class="current_page">Home</a>
+            <a href="index.php">Home</a>
         </li>
 
         <li>
-            <a href="about.html">About Us</a>
+            <a href="about.php" class="current_page">About Us</a>
         </li>
 
         <li>
-            <a href="list.html">DVD ratings</a>
+            <a href="list.php">DVD ratings</a>
         </li>
 
         <li>
-            <a href="contact.html">Contact Us</a>
+            <a href="contact.php">Contact Us</a>
         </li>
 
         <li>
-            <a href="sitemap.html">Site Map</a>
+            <a href="sitemap.php">Site Map</a>
         </li>
     </ul>
 </nav>
 
 <h1>
-Welcome to SmithIT Home Page
+    About us
 </h1>
 
 <p>
-This site offers you the chance to VOTE on your favourite DVD films ...
+    We are SmithIT.com.
+</p>
+<p>
+    We are based in Dublin.
+</p>
+<p>
+    We were established in 2007.
+</p>
+<p>
+    We sell computers and computer services - and host this great DVD voting site!.
 </p>
 
 

@@ -3,15 +3,30 @@
 
 About
 -------------------------------------------------------
-This is a sequence of progressive enhancements, taking a static HTML site
-into an authenticated modern PHP database-driven MVC website
+In this version we have simply changed each HTML files extension from `.html` to `.php`
 
-the website is a simply site to record votes on people's favourite DVDs (movies)
+(and also had to change all the `href` values for links:
+
+    <nav>
+        <ul>
+            <li>
+                <a href="index.php">Home</a>
+            </li>
+    
+            <li>
+                <a href="about.php">About Us</a>
+            </li>
+    
+            <li>
+                <a href="list.php">DVD ratings</a>
+            </li>
+            
+            etc.
 
 todo
 -------
 
-* everything ...
+* still pretty much everything ...
 
 
 Author
