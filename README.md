@@ -26,4 +26,4 @@ Dr Matt Smith
 * https://github.com/dr-matt-smith
 * http://www.mattsmithdev.com
 * http://gamesitb.ie/
-* htpp://www.itb.ie
+* http://www.itb.ie
