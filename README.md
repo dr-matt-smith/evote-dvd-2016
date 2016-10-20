@@ -18,11 +18,15 @@ Author
 -------------------------------------------------------
 
 Dr Matt Smith
+
 https://github.com/dr-matt-smith
+
 http://www.mattsmithdev.com
+
 http://gamesitb.ie/
 
 Senior Lecturer in Computing
 Institute of Technology Blanchardstown
 Dublin, Ireland
+
 htpp://www.itb.ie
