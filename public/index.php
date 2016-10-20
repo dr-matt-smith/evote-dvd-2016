@@ -1,5 +1,5 @@
-<!doctype php>
-<php lang="en">
+<!doctype html>
+<html lang="en">
 <head>
     <title>EVOTE DVD - home</title>
     <meta charset="utf-8">
@@ -53,4 +53,4 @@ This site offers you the chance to VOTE on your favourite DVD films ...
 </footer>
 
 </body>
-</php>
+</html>

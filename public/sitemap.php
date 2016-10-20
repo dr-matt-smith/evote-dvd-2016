@@ -1,5 +1,5 @@
-<!doctype php>
-<php lang="en">
+<!doctype html>
+<html lang="en">
 <head>
     <title>EVOTE DVD - sitemap</title>
     <meta charset="utf-8">
@@ -58,4 +58,4 @@
 </footer>
 
 </body>
-</php>
+</html>
